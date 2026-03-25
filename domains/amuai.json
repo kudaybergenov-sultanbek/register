@@ -1,0 +1,31 @@
+{
+    "description": "AmuAI - Amudaryo havzasi fermerlari uchun AI platforma",
+    "repo": "https://github.com/sizning-username/amuai",
+    "owner": {
+        "username": "sizning-github-username",
+        "email": "sizning@email.com"
+    },
+    "record": {
+        "A": ["34.49.124.0"]
+    }
+}
+```
+
+> ⚠️ `A` record ichidagi IP ni Replit dan olasiz — keyingi bosqichda.
+
+Sahifa pastida **"Commit new file"** bosing.
+
+---
+
+### Bosqich 4 — Replit IP manzilini aniqlash
+
+Replit da loyihangizni deploy qiling (Deployments → Autoscale yoki Static).
+
+Deploy bo'lgach, terminal ochib shu buyruqni yozing:
+```
+nslookup yourapp.replit.app
+```
+
+Yoki kompyuteringiz terminalida:
+```
+nslookup amuai.replit.app
